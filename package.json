@@ -1,0 +1,12 @@
+{
+  "name": "business-registration-guide",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "deploy:preview": "wrangler versions upload",
+    "check": "wrangler deploy --dry-run"
+  },
+  "devDependencies": {
+    "wrangler": "4.110.0"
+  }
+}
